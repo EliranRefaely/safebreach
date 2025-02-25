@@ -4,8 +4,10 @@ from search import Searcher
 
 
 def main():
-    st.title('Yellow Page')
-    st.markdown("Please fill the search parameters below and click on the 'Submit' button in order to get the contact details")
+    st.title('Yellow Pages')
+    st.markdown("Welcome to Eliran Refaely's assignment for SafeBreach!")
+    st.markdown("Please fill the relevant search parameters below and click on the 'Submit' button in order to get the contact details")
+    st.markdown("Please note that the parameters should be filtered using 'OR' logic rather than 'AND' logic")
     
  
     name = st.text_input('Enter Name:')
